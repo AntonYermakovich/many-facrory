@@ -1,0 +1,58 @@
+.offer {
+  margin-top: 200px;
+
+  &__problem {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    h4 {
+      font-size: 39px;
+      max-width: 396px;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+
+    &-list {
+      display: grid;
+      gap: 100px;
+    }
+
+    &-item {
+        position: relative;
+        font-size: 23px;
+        font-weight: 300;
+        display: flex;
+        gap: 12px;
+
+        &::before {
+            content: '';
+            display: block;
+            flex-shrink: 0;
+            background: url('../img/offer-item.png') no-repeat;
+            width: 20px;
+            height: 20px;
+            margin-top: 5px;
+        }
+    }
+  }
+
+  &__text {
+    margin: 150px 0 120px;
+    text-align: center;
+    font-size: 28px;
+  }
+
+  &__accept {
+    text-align: center;
+    p {
+      font-size: 23px;
+      margin-bottom: 20px;
+    }
+
+    &-list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+  }
+}

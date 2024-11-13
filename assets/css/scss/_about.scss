@@ -1,0 +1,76 @@
+.about {
+  margin-top: 80px;
+  position: relative;
+
+  &__title {
+    max-width: 600px;
+    margin: 0 auto;
+    background: var(--main-color);
+    display: flex;
+    padding: 11px 20px;
+
+    p {
+      font-size: 30px;
+      color: #fff;
+      font-weight: 200;
+    }
+
+    &-img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  &__info {
+    display: flex;
+    gap: 65px;
+    margin-top: 100px;
+  }
+
+  &__img {
+    width: calc(100% - 50%);
+    position: relative;
+
+    &::after {
+      content: "";
+      background: url("../img/about-M.png") no-repeat right / cover;
+      height: 100%;
+      width: 100%;
+      display: block;
+    }
+  }
+
+  &__subtitle {
+    width: 50%;
+    padding-right: max(15px, calc((100% - 1167px) / 2));
+    flex-shrink: 0;
+
+    h3 {
+      font-weight: bold;
+      font-size: 30px;
+      text-transform: uppercase;
+      margin-bottom: 35px;
+    }
+  }
+
+  &__text {
+    background: #f9f9f9;
+    margin-bottom: 11px;
+    padding: 23px 11px;
+
+    h4 {
+      font-size: 35px;
+      margin-bottom: 70px;
+    }
+
+    p {
+      font-size: 25px;
+    }
+
+    &_blue {
+      background: var(--main-color);
+      color: #fff;
+    }
+  }
+}
