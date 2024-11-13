@@ -971,6 +971,9 @@ body {
   .title {
     font-size: 24px;
   }
+  .sender .form h2 {
+    margin-bottom: 30px;
+  }
 }
 @media (max-width: 540px) {
   .container {
