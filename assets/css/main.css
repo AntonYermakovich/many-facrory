@@ -12,6 +12,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   min-width: 375px;
   min-height: 100vh;
@@ -57,7 +61,7 @@ body {
   overflow: hidden;
 }
 .hero__img {
-  background: url("../img/MANY FACTORY.webp") no-repeat bottom/contain;
+  background: url("../img/MANY FACTORY.svg") no-repeat bottom/contain;
   height: 170px;
   width: 100%;
   position: absolute;
@@ -185,6 +189,8 @@ body {
   background: #f9f9f9;
   padding: 0 60px 20px;
   width: 50%;
+  text-decoration: none;
+  color: #000;
 }
 .proccess__item h5 {
   color: var(--main-color);
@@ -986,7 +992,7 @@ body {
     max-width: 100%;
   }
   .hero__img {
-    background: url("../img/MANY FACTORY-mobile.webp") no-repeat bottom left/contain;
+    background: url("../img/MANY FACTORY-mobile.svg") no-repeat bottom left/contain;
     height: 170px;
   }
   .about__title {
@@ -1008,8 +1014,8 @@ body {
     border-radius: 50%;
   }
   .about__title-img img {
-    width: 25px;
-    height: 20px;
+    width: 30px;
+    height: 26px;
   }
   .about__subtitle h3 {
     font-size: 18px;

@@ -16,11 +16,15 @@ function changeCases() {
 // Slider
 const optionsSlider = {
   type: "loop",
+  drag: "free",
   perPage: 5,
   pagination: false,
   arrows: false,
-  padding: '50px',
+  padding: "50px",
   gap: 50,
+  autoScroll: {
+    speed: 1,
+  },
   breakpoints: {
     1200: {
       perPage: 3,
@@ -28,8 +32,8 @@ const optionsSlider = {
 
     768: {
       perPage: 1,
-      padding: '80px',
+      padding: "80px",
     },
   },
 };
-new Splide("#image-carousel", optionsSlider).mount();
+new Splide("#image-carousel", optionsSlider).mount(window.splide.Extensions);
