@@ -99,7 +99,7 @@
     width: 100%;
 
     &::after {
-      background: url(../img/monitoring-A.png) no-repeat center / contain;
+      background: url(../img/monitoring-A.webp) no-repeat center / contain;
       height: 322px;
       order: 0;
     }
@@ -219,7 +219,7 @@
         display: block;
         width: 100px;
         height: 100px;
-        background: url(../img/cube.png) no-repeat top / contain;
+        background: url(../img/cube.webp) no-repeat top / contain;
         position: absolute;
         top: -20px;
         right: -45px;
@@ -235,7 +235,7 @@
         display: block;
         width: 120px;
         height: 120px;
-        background: url("../img/sphere.png") no-repeat top/contain;
+        background: url("../img/sphere.webp") no-repeat top/contain;
         position: absolute;
         top: -20px;
         left: -45px;
@@ -250,7 +250,7 @@
         display: block;
         width: 100px;
         height: 100px;
-        background: url("../img/RoundCube.png") no-repeat top/contain;
+        background: url("../img/RoundCube.webp") no-repeat top/contain;
         position: absolute;
         top: -20px;
         right: -45px;
@@ -433,7 +433,7 @@
   }
 
   .hero__img {
-    background: url("../img/MANY FACTORY-mobile.png") no-repeat bottom left /
+    background: url("../img/MANY FACTORY-mobile.webp") no-repeat bottom left /
       contain;
 
     height: 170px;

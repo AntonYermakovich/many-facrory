@@ -54,14 +54,14 @@ body {
   overflow: hidden;
 }
 .hero__img {
-  background: url("../img/MANY FACTORY.png") no-repeat bottom/contain;
+  background: url("../img/MANY FACTORY.webp") no-repeat bottom/contain;
   height: 170px;
   width: 100%;
   position: absolute;
   bottom: -5px;
 }
 .hero__img1 {
-  background: url("../img/cube.png") no-repeat top/contain;
+  background: url("../img/cube.webp") no-repeat top/contain;
   width: 175px;
   height: 200px;
   position: absolute;
@@ -69,7 +69,7 @@ body {
   left: 10%;
 }
 .hero__img2 {
-  background: url("../img/sphere.png") no-repeat top/contain;
+  background: url("../img/sphere.webp") no-repeat top/contain;
   width: 330px;
   height: 330px;
   position: absolute;
@@ -78,7 +78,7 @@ body {
   transform: translateX(-50%);
 }
 .hero__img3 {
-  background: url("../img/RoundCube.png") no-repeat top/contain;
+  background: url("../img/RoundCube.webp") no-repeat top/contain;
   width: 250px;
   height: 250px;
   position: absolute;
@@ -129,7 +129,7 @@ body {
 }
 .about__img::after {
   content: "";
-  background: url("../img/about-M.png") no-repeat right/cover;
+  background: url("../img/about-M.webp") no-repeat right/cover;
   height: 100%;
   width: 100%;
   display: block;
@@ -257,7 +257,7 @@ body {
 }
 .monitoring__full-right::after {
   content: "";
-  background: url("../img/monitoring-A.png") no-repeat left/cover;
+  background: url("../img/monitoring-A.webp") no-repeat left/cover;
   height: 100%;
   width: 100%;
   display: block;
@@ -291,7 +291,7 @@ body {
   content: "";
   display: block;
   flex-shrink: 0;
-  background: url("../img/offer-item.png") no-repeat;
+  background: url("../img/offer-item.webp") no-repeat;
   width: 20px;
   height: 20px;
   margin-top: 5px;
@@ -544,6 +544,9 @@ body {
   width: 100%;
   height: 100%;
 }
+.cases__content-right img.img-mobile {
+  display: none;
+}
 
 .sender {
   margin-top: 250px;
@@ -706,7 +709,7 @@ body {
     width: 100%;
   }
   .monitoring__full-right::after {
-    background: url(../img/monitoring-A.png) no-repeat center/contain;
+    background: url(../img/monitoring-A.webp) no-repeat center/contain;
     height: 322px;
     order: 0;
   }
@@ -808,7 +811,7 @@ body {
     display: block;
     width: 100px;
     height: 100px;
-    background: url(../img/cube.png) no-repeat top/contain;
+    background: url(../img/cube.webp) no-repeat top/contain;
     position: absolute;
     top: -20px;
     right: -45px;
@@ -822,7 +825,7 @@ body {
     display: block;
     width: 120px;
     height: 120px;
-    background: url("../img/sphere.png") no-repeat top/contain;
+    background: url("../img/sphere.webp") no-repeat top/contain;
     position: absolute;
     top: -20px;
     left: -45px;
@@ -835,7 +838,7 @@ body {
     display: block;
     width: 100px;
     height: 100px;
-    background: url("../img/RoundCube.png") no-repeat top/contain;
+    background: url("../img/RoundCube.webp") no-repeat top/contain;
     position: absolute;
     top: -20px;
     right: -45px;
@@ -980,7 +983,7 @@ body {
     max-width: 100%;
   }
   .hero__img {
-    background: url("../img/MANY FACTORY-mobile.png") no-repeat bottom left/contain;
+    background: url("../img/MANY FACTORY-mobile.webp") no-repeat bottom left/contain;
     height: 170px;
   }
   .about__title {
