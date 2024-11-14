@@ -114,6 +114,7 @@ body {
   background: var(--main-color);
   display: flex;
   padding: 11px 20px;
+  text-decoration: none;
 }
 .about__title p {
   font-size: 30px;
@@ -172,13 +173,6 @@ body {
 .slider {
   width: 100%;
   margin: 170px 0;
-  display: flex;
-  justify-content: space-between;
-}
-.slider span {
-  text-transform: uppercase;
-  font-size: 36px;
-  font-weight: bold;
 }
 
 .proccess__container {
@@ -486,6 +480,7 @@ body {
 }
 .cases__result {
   margin-top: 60px;
+  padding-bottom: 75px;
 }
 .cases__result h4 {
   font-size: 34px;
@@ -495,6 +490,7 @@ body {
 }
 .cases__result-info {
   display: flex;
+  align-items: center;
   margin-bottom: -33px;
 }
 .cases__result-left {
@@ -558,7 +554,10 @@ body {
 }
 
 .sender {
-  margin-top: 250px;
+  margin-top: 50px;
+}
+.sender__container .title {
+  margin-bottom: 50px;
 }
 .sender .form {
   padding: 110px 0;

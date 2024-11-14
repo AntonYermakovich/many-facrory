@@ -35,7 +35,7 @@
 
     <section class="about">
       <div class="about__container">
-        <div class="about__title">
+        <a href="#proccess" class="about__title">
           <p>Посмотрите на работу нашей платформы на практике</p>
           <div class="about__title-img">
             <img
@@ -45,7 +45,7 @@
               height="auto"
             />
           </div>
-        </div>
+        </a>
 
         <div class="about__info">
           <div class="about__img"></div>
@@ -80,33 +80,27 @@
       </div>
     </section>
 
-    <section
-      id="image-carousel"
-      class="splide slider"
-      aria-label="Beautiful Images"
-    >
-      <div class="splide__track">
-        <ul class="splide__list">
-          <li class="splide__slide">
-            <img src="assets/img/sliderItem.webp" alt="Slider" />
-          </li>
-          <li class="splide__slide">
-            <img src="assets/img/sliderItem.webp" alt="Slider" />
-          </li>
-          <li class="splide__slide">
-            <img src="assets/img/sliderItem.webp" alt="Slider" />
-          </li>
-          <li class="splide__slide">
-            <img src="assets/img/sliderItem.webp" alt="Slider" />
-          </li>
-          <li class="splide__slide">
-            <img src="assets/img/sliderItem.webp" alt="Slider" />
-          </li>
-        </ul>
+    <section class="slider">
+      <h2 class="title">Нам доверяют</h2>
+
+      <div id="image-carousel" class="splide" aria-label="Beautiful Images">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide">
+              <img src="assets/img/slider1.webp" alt="Slider" />
+            </li>
+            <li class="splide__slide">
+              <img src="assets/img/slide2.svg" alt="Slider" />
+            </li>
+            <li class="splide__slide">
+              <img src="assets/img/slider3.webp" alt="Slider" />
+            </li>
+          </ul>
+        </div>
       </div>
     </section>
 
-    <section class="proccess">
+    <section class="proccess" id="proccess">
       <div class="proccess__container container">
         <a href="#monitoring" class="proccess__item">
           <h5>ManyFactory</h5>
@@ -221,30 +215,10 @@
           <p>Такая система успешно применяется в</p>
 
           <div class="offer__accept-list">
-            <img
-              src="./assets/img/offer1.webp"
-              alt="Offer"
-              width="auto"
-              height="auto"
-            />
-            <img
-              src="./assets/img/offer2.webp"
-              alt="Offer"
-              width="auto"
-              height="auto"
-            />
-            <img
-              src="./assets/img/offer3.webp"
-              alt="Offer"
-              width="auto"
-              height="auto"
-            />
-            <img
-              src="./assets/img/offer4.webp"
-              alt="Offer"
-              width="auto"
-              height="auto"
-            />
+            <img src="./assets/img/offer1.webp" alt="Offer" loading="lazy" />
+            <img src="./assets/img/offer2.webp" alt="Offer" loading="lazy" />
+            <img src="./assets/img/offer3.webp" alt="Offer" loading="lazy" />
+            <img src="./assets/img/offer4.webp" alt="Offer" loading="lazy" />
           </div>
         </div>
       </div>
@@ -380,7 +354,6 @@
                 </p>
                 <p>4. Интеграция за <span>3 месяца</span></p>
                 <p>5. Экономический эффект — <span>4.300.000 рублей</span></p>
-                <button>Выручка со сделки: 600.000 рублей</button>
               </div>
             </div>
           </div>

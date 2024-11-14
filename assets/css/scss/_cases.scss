@@ -186,6 +186,7 @@
 
   &__result {
     margin-top: 60px;
+    padding-bottom: 75px;
 
     h4 {
       font-size: 34px;
@@ -196,6 +197,7 @@
 
     &-info {
       display: flex;
+      align-items: center;
       margin-bottom: -33px;
     }
 
@@ -209,6 +211,7 @@
 
     &-right {
       margin-left: -40px;
+
       p {
         text-align: left;
         font-size: 18px;
