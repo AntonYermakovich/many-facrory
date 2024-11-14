@@ -1,6 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap");
+@font-face {
+  font-family: "Onest";
+  src: url("../fonts/Onest/Onest-VariableFont_wght.ttf");
+}
 :root {
-  --main-color: #1646F3;
+  --main-color: #1646f3;
 }
 
 * {
@@ -12,7 +15,7 @@
 body {
   min-width: 375px;
   min-height: 100vh;
-  font-family: "Onest", sans-serif;
+  font-family: "Onest";
 }
 
 .container {
