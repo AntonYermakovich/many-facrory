@@ -39,7 +39,7 @@
     display: none;
 
     &_active {
-        display: block;
+      display: block;
     }
 
     &-title {
@@ -135,7 +135,7 @@
   }
 
   &__from {
-    padding-top: 70px;
+    padding: 40px 0 60px;
     display: flex;
     justify-content: center;
     align-items: end;
@@ -155,6 +155,12 @@
       position: relative;
       z-index: 5;
       pointer-events: none;
+      width: 400px;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
 
       h3 {
         position: absolute;
@@ -175,6 +181,8 @@
         margin-bottom: 22px;
         margin-left: -22px;
         z-index: 1;
+        height: 350px;
+        width: auto;
 
         h3 {
           top: -55px;
@@ -242,7 +250,6 @@
     align-items: center;
     padding: 100px 0 0;
     padding-left: calc((100% - 1176px) / 2);
-   
 
     &-left {
       text-align: left;

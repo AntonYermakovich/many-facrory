@@ -304,6 +304,11 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
+
+    &:last-child {
+      margin-bottom: 0;
+      margin-left: 0;
+    }
   }
 
   .cases__from-item h3 {
@@ -374,6 +379,8 @@
     height: 100%;
     object-fit: contain;
   }
+
+  
 
   .sender {
     background: var(--main-color);
@@ -556,8 +563,18 @@
     font-size: 20px;
   }
 
+  .cases__from-item {
+    width: auto;
+    padding: 20px;
+  }
+
+  .cases__content {
+    padding: 50px 0 0;
+  }
+
   .cases__item-subtitle {
     font-size: 18px;
+    padding: 0 20px;
   }
 
   .cases__item .advantages__item {
@@ -566,5 +583,14 @@
     span {
         font-size: 25px;
     }
+  }
+
+  .cases__trust h4 {
+    padding: 0 20px;
+    font-size: 22px;
+  }
+
+  .sender {
+    padding-top: 30px;
   }
 }

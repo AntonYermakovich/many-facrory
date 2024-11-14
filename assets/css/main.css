@@ -434,7 +434,7 @@ body {
   margin: 0 auto 40px;
 }
 .cases__from {
-  padding-top: 70px;
+  padding: 40px 0 60px;
   display: flex;
   justify-content: center;
   align-items: end;
@@ -453,6 +453,11 @@ body {
   position: relative;
   z-index: 5;
   pointer-events: none;
+  width: 400px;
+}
+.cases__from-item img {
+  width: 100%;
+  height: 100%;
 }
 .cases__from-item h3 {
   position: absolute;
@@ -472,6 +477,8 @@ body {
   margin-bottom: 22px;
   margin-left: -22px;
   z-index: 1;
+  height: 350px;
+  width: auto;
 }
 .cases__from-item:last-child h3 {
   top: -55px;
@@ -888,6 +895,10 @@ body {
     align-items: center;
     gap: 20px;
   }
+  .cases__from-item:last-child {
+    margin-bottom: 0;
+    margin-left: 0;
+  }
   .cases__from-item h3 {
     position: sticky;
     order: 0;
@@ -1087,13 +1098,28 @@ body {
   .cases__item-title {
     font-size: 20px;
   }
+  .cases__from-item {
+    width: auto;
+    padding: 20px;
+  }
+  .cases__content {
+    padding: 50px 0 0;
+  }
   .cases__item-subtitle {
     font-size: 18px;
+    padding: 0 20px;
   }
   .cases__item .advantages__item {
     font-size: 39px;
   }
   .cases__item .advantages__item span {
     font-size: 25px;
+  }
+  .cases__trust h4 {
+    padding: 0 20px;
+    font-size: 22px;
+  }
+  .sender {
+    padding-top: 30px;
   }
 }/*# sourceMappingURL=main.css.map */
